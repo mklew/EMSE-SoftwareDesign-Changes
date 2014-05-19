@@ -34,4 +34,8 @@ public abstract class GameObject
     public boolean isTarget () {
         return false;
     }
+
+    public boolean isGreenPoint () {
+        return false;
+    }
 }

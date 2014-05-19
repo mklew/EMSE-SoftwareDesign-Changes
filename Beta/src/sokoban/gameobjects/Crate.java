@@ -51,10 +51,9 @@ public class Crate extends GameObject {
 
     @Override
     public boolean movementQuery (Movement movement) {
-        if(isOnTheTarget) {
+        if (isOnTheTarget) {
             return false;
-        }
-        else {
+        } else {
             Rectangle movementArea = transform(this.getArea(), movement.getInitialVector());
             ArrayList<GameObject> solidObjects = Collision.getSolidObjectsInArea(movement.getMap(), movementArea);
 
@@ -71,6 +70,12 @@ public class Crate extends GameObject {
     public void postMovementAction (Movement movement) {
         final ArrayList<GameObject> targetObjectsInArea = Collision.getTargetObjectsInArea(movement.getMap(), getArea());
         isOnTheTarget = targetObjectsInArea.size() > 0;
+
+        final ArrayList<GameObject> greenPointsInArea = Collision.getGreenPointsInArea(movement.getMap(), getArea());
+        if (greenPointsInArea.size() > 0) {
+            movement.getMap().removeObject(this);
+        }
+
         return;
     }
 }

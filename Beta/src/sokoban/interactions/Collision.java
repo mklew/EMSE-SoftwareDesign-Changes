@@ -42,4 +42,16 @@ public class Collision {
 
         return targetObjects;
     }
+
+    public static ArrayList<GameObject> getGreenPointsInArea (Map map, Rectangle area) {
+        ArrayList<GameObject> allObjects = map.getObjectsInArea(area);
+        ArrayList<GameObject> greenPoints = new ArrayList<GameObject>();
+
+        if (allObjects != null) {
+            for (GameObject current : allObjects)
+                if (current.isGreenPoint()) greenPoints.add(current);
+        } else return greenPoints;
+
+        return greenPoints;
+    }
 }

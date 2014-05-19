@@ -50,6 +50,9 @@ public class ImageReader {
             case "CRATEONTARGET":
                 filename = "CrateOnTarget.gif";
                 break;
+            case "GREEN":
+                filename = "GreenPoint.jpg";
+                break;
             default:
                 return null;
         }
