@@ -1,15 +1,13 @@
 package sokoban.gameobjects;
 
-import java.awt.Graphics;
-import java.awt.Image;
-import java.util.ArrayList;
-
 import platform.core.GameObject;
 import platform.core.Map;
 import platform.core.Movement;
-import platform.geometry.Angle;
 import platform.geometry.Position;
 import sokoban.io.ImageReader;
+
+import java.awt.*;
+import java.util.ArrayList;
 
 public class Target extends GameObject
 {
@@ -61,4 +59,8 @@ public class Target extends GameObject
 				return true;
 		return false;
 	}
+
+    @Override public boolean isTarget () {
+        return true;
+    }
 }

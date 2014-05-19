@@ -1,8 +1,9 @@
 package platform.core;
 
-import java.awt.Graphics;
+import platform.geometry.Position;
+import platform.geometry.Rectangle;
 
-import platform.geometry.*;
+import java.awt.*;
 
 public abstract class GameObject
 {
@@ -29,4 +30,8 @@ public abstract class GameObject
 	{
 		return new Rectangle(position.clone(), new Position(position.x + getWidth() - 1, position.y + getHeight() - 1));
 	}
+
+    public boolean isTarget () {
+        return false;
+    }
 }

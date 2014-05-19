@@ -1,17 +1,16 @@
 package sokoban.io;
 
-import java.awt.Graphics;
-import java.awt.Image;
+import platform.core.GameObject;
+import platform.geometry.Position;
+import platform.geometry.Rectangle;
+import sokoban.gameobjects.*;
+
+import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-
-import platform.core.GameObject;
-import platform.geometry.Position;
-import platform.geometry.Rectangle;
-import sokoban.gameobjects.*;
 
 public class MapReader
 {
@@ -178,6 +177,10 @@ public class MapReader
 				objects[x] = new Player(position);
 				this.backgroundGraphics.drawImage(floor, position.x, position.y, uniformGameObjectLength, uniformGameObjectLength, null);
 				break;
+            case 6: // Dog
+                objects[x] = new Dog(position);
+                this.backgroundGraphics.drawImage(floor, position.x, position.y, uniformGameObjectLength, uniformGameObjectLength, null);
+                break;
 			default:
 				return null;
 			}
