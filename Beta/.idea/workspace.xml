@@ -2,27 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94198828-d284-4f35-9197-ea0fc16f8acc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/sokoban/gameobjects/Dog.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maps/1.map" afterPath="$PROJECT_DIR$/maps/1.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sokoban/interactions/Collision.java" afterPath="$PROJECT_DIR$/src/sokoban/interactions/Collision.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/platform/core/GameObject.java" afterPath="$PROJECT_DIR$/src/platform/core/GameObject.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sokoban/gameobjects/Crate.java" afterPath="$PROJECT_DIR$/src/sokoban/gameobjects/Crate.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sokoban/io/ImageReader.java" afterPath="$PROJECT_DIR$/src/sokoban/io/ImageReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sokoban/io/MapReader.java" afterPath="$PROJECT_DIR$/src/sokoban/io/MapReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sokoban/gameobjects/Target.java" afterPath="$PROJECT_DIR$/src/sokoban/gameobjects/Target.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Beta.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400513368003" ignored="false" />
     <file path="/fragment.java" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400515602880" ignored="false" />
-    <file path="/Dummy.txt" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400514768736" ignored="false" />
+    <file path="/Dummy.txt" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400516090566" ignored="false" />
     <file path="/Dog.java" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400515723286" ignored="false" />
     <file path="/ImageReader.java" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400515147787" ignored="false" />
     <file path="/Collision.java" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400515632038" ignored="false" />
     <file path="/GameObject.java" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400515646479" ignored="false" />
     <file path="/Target.java" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400515661998" ignored="false" />
     <file path="/MapReader.java" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400515820346" ignored="false" />
+    <file path="/1.map" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400516268470" ignored="false" />
+    <file path="/Crate.java" changelist="94198828-d284-4f35-9197-ea0fc16f8acc" time="1400517529484" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +80,13 @@
     <favorites_list name="Beta" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5347769">
+    <splitter split-orientation="horizontal" split-proportion="0.27427822">
       <split-first>
         <leaf>
           <file leaf-file-name="Target.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sokoban/gameobjects/Target.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="63" column="20" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
+                <state line="53" column="22" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -97,7 +95,7 @@
           <file leaf-file-name="Crate.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sokoban/gameobjects/Crate.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="26" column="36" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
+                <state line="30" column="29" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -106,7 +104,7 @@
           <file leaf-file-name="Map.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/platform/core/Map.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="170" column="8" selection-start="5805" selection-end="5805" vertical-scroll-proportion="0.0">
+                <state line="218" column="45" selection-start="7829" selection-end="7835" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -123,28 +121,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ScreenDrawer.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/sokoban/io/ScreenDrawer.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="16" column="13" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="MapReader.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/sokoban/io/MapReader.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state line="182" column="31" selection-start="6453" selection-end="6453" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="1.map" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/maps/1.map">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="35" selection-start="419" selection-end="419" vertical-scroll-proportion="0.38255033">
                   <folding />
                 </state>
               </provider>
@@ -159,19 +139,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Sokoban.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Sokoban.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sokoban/gui/Sokoban.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="62" column="12" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="GameObject.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/platform/core/GameObject.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="34" column="21" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
+                <state line="62" column="12" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.90909094">
                   <folding />
                 </state>
               </provider>
@@ -181,19 +152,30 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Crate.java" pinned="false" current="false" current-in-tab="false">
+          <file leaf-file-name="Crate.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/sokoban/gameobjects/Crate.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="53" column="9" selection-start="1277" selection-end="1277" vertical-scroll-proportion="0.0">
+                <state line="63" column="45" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.61206895">
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Collision.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/sokoban/interactions/Collision.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="23" column="24" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Collision.java" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/sokoban/interactions/Collision.java">
+          <file leaf-file-name="ImageReader.java" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/sokoban/io/ImageReader.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="40" column="27" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.625">
+                <state line="49" column="31" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0">
                   <folding />
                 </state>
               </provider>
@@ -219,13 +201,14 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/sokoban/io/ImageReader.java" />
-        <option value="$PROJECT_DIR$/src/sokoban/interactions/Collision.java" />
         <option value="$PROJECT_DIR$/src/platform/core/GameObject.java" />
         <option value="$PROJECT_DIR$/src/sokoban/gameobjects/Target.java" />
         <option value="$PROJECT_DIR$/src/sokoban/gameobjects/Dog.java" />
         <option value="$PROJECT_DIR$/src/sokoban/io/MapReader.java" />
         <option value="$PROJECT_DIR$/maps/1.map" />
+        <option value="$PROJECT_DIR$/src/sokoban/interactions/Collision.java" />
+        <option value="$PROJECT_DIR$/src/sokoban/io/ImageReader.java" />
+        <option value="$PROJECT_DIR$/src/sokoban/gameobjects/Crate.java" />
       </list>
     </option>
   </component>
@@ -410,20 +393,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Beta" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Beta" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="maps" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -432,23 +401,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="255" />
     <property name="project.structure.proportion" value="0.0" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="257" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="257" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="267" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1056" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1055" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="262" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="259" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -645,6 +630,11 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="Sokoban" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="JProfiler">
         <option name="WINDOW" value="false" />
         <option name="JVMPI" value="false" />
@@ -656,6 +646,7 @@
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -687,18 +678,19 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903865" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SBT Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39940536" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32903865" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -706,12 +698,11 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18240343" sideWeight="0.7888999" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2111001" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18240343" sideWeight="0.7175421" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2824579" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32937685" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -827,13 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sokoban/io/ImageReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="45" selection-start="824" selection-end="824" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/sokoban/gameobjects/Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="13" selection-start="506" selection-end="506" vertical-scroll-proportion="0.0">
@@ -848,37 +832,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sokoban/gameobjects/Crate.java">
+    <entry file="file://$PROJECT_DIR$/maps/2.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="36" selection-start="713" selection-end="713" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/platform/core/Map.java">
+    <entry file="file://$PROJECT_DIR$/maps/1.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="8" selection-start="5805" selection-end="5805" vertical-scroll-proportion="0.0">
+        <state line="19" column="63" selection-start="419" selection-end="419" vertical-scroll-proportion="0.38255033">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sokoban/gameobjects/Target.java">
+    <entry file="file://$PROJECT_DIR$/src/sokoban/io/MapReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="20" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.0">
+        <state line="182" column="31" selection-start="6453" selection-end="6453" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/platform/core/GameObject.java">
+    <entry file="file://$PROJECT_DIR$/src/sokoban/io/ScreenDrawer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="21" selection-start="1146" selection-end="1146" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/sokoban/interactions/Collision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="27" selection-start="1508" selection-end="1508" vertical-scroll-proportion="0.625">
+        <state line="65" column="36" selection-start="2176" selection-end="2305" vertical-scroll-proportion="0.5350734">
           <folding />
         </state>
       </provider>
@@ -892,38 +869,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sokoban/io/ScreenDrawer.java">
+    <entry file="file://$PROJECT_DIR$/src/sokoban/gameobjects/Target.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
+        <state line="53" column="22" selection-start="1013" selection-end="1013" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maps/2.map">
+    <entry file="file://$PROJECT_DIR$/src/platform/core/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="218" column="45" selection-start="7829" selection-end="7835" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/platform/core/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="138" selection-end="138" vertical-scroll-proportion="0.09787928">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/sokoban/gui/Sokoban.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="12" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.0">
+        <state line="62" column="12" selection-start="1520" selection-end="1520" vertical-scroll-proportion="0.90909094">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/sokoban/io/MapReader.java">
+    <entry file="file://$PROJECT_DIR$/src/sokoban/io/ImageReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="31" selection-start="6453" selection-end="6453" vertical-scroll-proportion="0.0">
+        <state line="49" column="31" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maps/1.map">
+    <entry file="file://$PROJECT_DIR$/src/sokoban/interactions/Collision.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="419" selection-end="419" vertical-scroll-proportion="0.38255033">
+        <state line="23" column="24" selection-start="828" selection-end="828" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sokoban/gameobjects/Crate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="45" selection-start="1899" selection-end="1899" vertical-scroll-proportion="0.61206895">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

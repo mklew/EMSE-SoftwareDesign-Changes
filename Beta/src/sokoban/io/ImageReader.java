@@ -47,6 +47,9 @@ public class ImageReader {
             case "DOG":
                 filename = "Dog.jpg";
                 break;
+            case "CRATEONTARGET":
+                filename = "CrateOnTarget.gif";
+                break;
             default:
                 return null;
         }

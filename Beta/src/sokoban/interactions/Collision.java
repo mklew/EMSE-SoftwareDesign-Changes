@@ -38,7 +38,7 @@ public class Collision {
         if (allObjects != null) {
             for (GameObject current : allObjects)
                 if (current.isTarget()) targetObjects.add(current);
-        } else return null;
+        } else return targetObjects;
 
         return targetObjects;
     }
